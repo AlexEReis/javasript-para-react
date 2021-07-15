@@ -1,10 +1,10 @@
 import "./style.css"
 
 
-function CardGame() {
+function CardGame(icon="favicon", alt="Logo Ebit") {
     return /*html*/`
         <article class="card-game">
-         <img src="./images/favicon.png" alt="Logo da Ebit">
+         <img src="./images/${icon}.png" alt="${alt}">
         </article>
     `;
 }
